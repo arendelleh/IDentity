@@ -15,5 +15,10 @@
 local.properties
 
 # Project exclude paths
-/app/
-/gradle/
+
+
+.idea/
+.kotlin/
+**/build/
+*.jks
+*.keystore

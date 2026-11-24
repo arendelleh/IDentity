@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profileScroll" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:background="#FFF4F8" android:clipToPadding="false">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/app_name" android:textSize="30sp" android:textStyle="bold" android:textColor="#84234B" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:layout_marginBottom="24dp" android:text="@string/profile_tagline"
+            android:textSize="16sp" android:textColor="#6B4B5C" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/gradient" android:orientation="vertical" android:gravity="center_horizontal" android:padding="28dp">
+            <TextView android:layout_width="80dp" android:layout_height="80dp" android:gravity="center"
+                android:background="@drawable/profile_avatar" android:text="@string/profile_initials"
+                android:textColor="#84234B" android:textSize="28sp" android:textStyle="bold" android:importantForAccessibility="no" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" android:gravity="center" android:text="@string/profile_name"
+                android:textSize="26sp" android:textStyle="bold" android:textColor="#392331" />
+            <TextView android:id="@+id/tvStudentNumber" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" android:gravity="center" android:text="@string/student_number_private"
+                android:textSize="14sp" android:textColor="#6B4B5C" />
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp"
+            android:text="@string/course_label" android:textSize="13sp" android:textStyle="bold" android:textColor="#84234B" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp"
+            android:text="@string/course_section" android:textSize="20sp" android:textStyle="bold" android:textColor="#392331" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp"
+            android:text="@string/program_label" android:textSize="13sp" android:textStyle="bold" android:textColor="#84234B" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp"
+            android:text="@string/college_department" android:textSize="18sp" android:textColor="#392331" />
+    </LinearLayout>
+</ScrollView>

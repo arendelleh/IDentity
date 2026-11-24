@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IDentity</string>
+    <string name="profile_name">Erin Dale T. Gaetos</string>
+    <string name="profile_initials">EG</string>
+    <string name="profile_tagline">Student profile</string>
+    <string name="course_label">COURSE AND SECTION</string>
+    <string name="course_section">CS0011 · TN35</string>
+    <string name="program_label">DEGREE PROGRAM</string>
+    <string name="college_department">Computer Science with Specialization in Software Engineering</string>
+    <string name="student_number_private">Student number · Private</string>
+</resources>
